@@ -81,11 +81,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 引入live2d看板娘！不需要可以把这一项都删掉
               <link
                 rel="stylesheet"
-                href="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
+                href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
               />
               <script
                 async="async"
-                src="https://github.com/yanruhuo/yuanru/blob/main/pio.min.js"
+                src="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
                 onload='
                   let pio_container = document.createElement("div");
                   pio_container.classList.add("pio-container");

@@ -85,7 +85,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               />
               <script
                 async="async"
-                src="https://github.com/yanruhuo/yuanru/blob/main/pio.min.js"
+                src="https://github.com/yanruhuo/blog/pio.min.js"
                 onload='
                   let pio_container = document.createElement("div");
                   pio_container.classList.add("pio-container");

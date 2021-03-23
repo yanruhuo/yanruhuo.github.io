@@ -9,7 +9,7 @@
 
 - Age: **27 years old**
 - Marriage: **unmarried，Interested lady can contact me！**
-- Site: **<https://wu-kan.cn>**
+- Site: **<https://blog.imignon.com/>**
 
 <!-- .slide vertical=true -->
 

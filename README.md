@@ -24,11 +24,13 @@
 
 <!-- .slide vertical=true -->
 
-- **C/C++**, Familiar
-  - **OpenMP**, Familiar
-  - **MPI**, Familiar
-  - **CUDA**, Familiar&Learning
-- **Python**, Familiar
+- **Linux**, Familiar
+  - **Python**, Familiar
+  - **Shell**, Familiar
+  - **Docker**, Familiar
+  - **Docker**, Familia
+  - **K8S**, Familiar&Learning
+- **VmWare**, Familiar
 
 <!-- .slide vertical=true -->
 

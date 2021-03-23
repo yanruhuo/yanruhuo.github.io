@@ -8,15 +8,15 @@
 ## Contact
 
 - Age: **27 years old**
-- Phone: **+86 18756280097**
+- Marriage: **unmarried，Interested lady can contact me！**
 - Site: **<https://wu-kan.cn>**
 
 <!-- .slide vertical=true -->
 
 - E-mail:
-  - **[i@wu-kan.cn](mailto:i@wu-kan.cn)**
-  - **[wukan3@mail2.sysu.edu.cn](mailto:wukan3@mail2.sysu.edu.cn)**
-- WeChat: **Wu-\_-Kan**
+  - **[li61557853@163.com](mailto:li61557853@163.com)**
+  - **[61557853@qq.com](mailto:61557853@qq.com)**
+- WeChat: **longyu3608**
 
 <!-- .slide -->
 

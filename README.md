@@ -27,7 +27,6 @@
 - **Linux**, Familiar
   - **Python**, Familiar
   - **Shell**, Familiar
-  - **Docker**, Familiar
   - **Docker**, Familia
   - **K8S**, Familiar&Learning
 - **VmWare**, Familiar

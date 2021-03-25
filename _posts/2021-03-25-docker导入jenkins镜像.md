@@ -38,10 +38,4 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPasswd
 7.按照要求配置
 -选择跳过插件安装
 
-8.将开始备份的plugins上传 解压到目录路径下
-
-9. 在地址栏后面加上/restart，点击yes。
-
-注： 插件可以在外面有网的服务器按照同样的镜像包进行安装镜像，然后把插件目录压缩打包，根据自己的需求进行选择。
-
-
+8.将开始备份

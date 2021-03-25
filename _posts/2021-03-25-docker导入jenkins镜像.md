@@ -18,7 +18,7 @@ jekyll-theme-WuK:
 
 3.docker load --input 包名称 （导入镜像）
 ```c
--docker images     （查看镜像
+-docker images     （查看镜像)
 ```
 
 4.生成容器
@@ -26,6 +26,7 @@ jekyll-theme-WuK:
 docker run -d --name jenkins -p 8040:8080 -p 50000:50000 -v /data/jenkins_home:/var/jenkins_home jenkins/jenkins:2.222.3-centos
 docker ps    （查看运行容器）
 ```
+
 5.配置jenkins
 -输入 IP地址：8040 进行访问
 -前提查看防火墙是否打开，要关闭防火墙

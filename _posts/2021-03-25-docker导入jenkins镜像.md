@@ -8,7 +8,7 @@ jekyll-theme-WuK:
 
 ## 实验过程
 1.下载、上传镜像
-> [jenkins镜像](https://share.weiyun.com/v3Vb0cGD3)
+> [jenkins镜像](https://share.weiyun.com/v3Vb0cGD)
 
 2.创建数据存放目录
 ```c

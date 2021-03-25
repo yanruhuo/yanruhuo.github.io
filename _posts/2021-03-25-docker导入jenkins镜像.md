@@ -8,7 +8,7 @@ jekyll-theme-WuK:
 
 ## 实验过程
 1.下载、上传镜像
-[jenkins镜像](https://njc-download.weiyun.com/ftn_handler/1c5395fc2555980d98afc5a3bbe33a995c8a0bc3092a19b9cdfdbbcb37b9fd82e8b3c2e5caef4686888cae66eed86af776c5d30ab209da89cd828cfc01f64e3b/jenkins.tar?fname=jenkins.tar&from=30113&version=3.3.3.3)
+> [jenkins镜像](https://njc-download.weiyun.com/ftn_handler/1c5395fc2555980d98afc5a3bbe33a995c8a0bc3092a19b9cdfdbbcb37b9fd82e8b3c2e5caef4686888cae66eed86af776c5d30ab209da89cd828cfc01f64e3b/jenkins.tar?fname=jenkins.tar&from=30113&version=3.3.3.3)
 
 2.创建数据存放目录
 ```c
@@ -28,8 +28,8 @@ docker ps    （查看运行容器）
 ```
 
 5.配置jenkins
--输入 IP地址：8040 进行访问
--前提查看防火墙是否打开，要关闭防火墙
+> 输入 IP地址：8040 进行访问
+> 前提查看防火墙是否打开，要关闭防火墙
 
 6.查看密码
 ```c
@@ -37,6 +37,6 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPasswd
 ```
 
 7.按照要求配置
--选择跳过插件安装
+> 选择跳过插件安装
 
 8.将开始备份

@@ -1,0 +1,42 @@
+---
+title: docker导入jenkins镜像
+tags:
+  - 随笔
+jekyll-theme-WuK:
+  background_music: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&id=27876158&auto=0&height=66"></iframe>'
+---
+
+##v2ray配置
+
+1.# Centos关闭防火墙
+```c
+systemctl stop firewalld.service
+systemctl disable firewalld.service
+```
+
+2.CentOS：
+```c
+yum update -y && yum install curl -y
+```
+
+3. CentOS 7 、Debian 8 、Ubuntu 16 ，Debian 9（推荐）
+```c
+bash <(curl -s -L https://git.io/v2ray.sh)
+```
+
+4.# 不卸载内核版本
+```c
+wget -N "https://github.000060000.xyz/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
+# 卸载内核版本
+wget -N "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+```
+
+5.根据提示安装即可，重启后可以使用 bash tcp.sh 命令接着操作，建议安装 BBRplus内核 和开启 BBRplus版 加速，据说速度最快。
+
+6.操作指令
+> v2ray qr   (生成二维码链接)
+> v2ray url  (客户端直接添加)
+> service v2ray start (启动服务)
+> service v2ray stop  (关闭服务)
+> service v2ray status (运行状态)
+

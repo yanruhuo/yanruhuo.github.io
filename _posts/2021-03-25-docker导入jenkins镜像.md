@@ -20,7 +20,7 @@ jekyll-theme-WuK:
 ```c
 -docker images     （查看镜像)
 ```
-![你啊，是真的想考音大吗？](https://i.loli.net/2020/12/26/pBT4SyzEKCicJ2O.gif)
+![你啊，是真的想考音大吗？](https://raw.githubusercontent.com/yanruhuo/yanruhuo.github.io/main/image/docker%E5%AF%BC%E5%85%A5jenkins/%E5%9B%BE%E7%89%871.png)
 
 4.生成容器
 ```c

@@ -30,10 +30,10 @@ docker ps    （查看运行容器）
 ```
 ![图片](https://raw.githubusercontent.com/yanruhuo/yanruhuo.github.io/main/image/docker%E5%AF%BC%E5%85%A5jenkins/%E5%9B%BE%E7%89%873.png)
 
-
 5.配置jenkins
 - 输入 IP地址：8040 进行访问
 - 前提查看防火墙是否打开，要关闭防火墙
+![图片](https://raw.githubusercontent.com/yanruhuo/yanruhuo.github.io/main/image/docker%E5%AF%BC%E5%85%A5jenkins/%E5%9B%BE%E7%89%874.png)
 
 6.查看密码
 ```c

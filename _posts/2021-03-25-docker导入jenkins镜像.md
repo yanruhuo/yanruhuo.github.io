@@ -50,5 +50,6 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPasswd
 9.在地址栏后面加上/restart，点击yes。
 ![图片](https://raw.githubusercontent.com/yanruhuo/yanruhuo.github.io/main/image/docker%E5%AF%BC%E5%85%A5jenkins/%E5%9B%BE%E7%89%877.png)
 ![图片](https://raw.githubusercontent.com/yanruhuo/yanruhuo.github.io/main/image/docker%E5%AF%BC%E5%85%A5jenkins/%E5%9B%BE%E7%89%878.png)
+
 重启后可以看到插件
 ![图片](https://raw.githubusercontent.com/yanruhuo/yanruhuo.github.io/main/image/docker%E5%AF%BC%E5%85%A5jenkins/%E5%9B%BE%E7%89%879.png)

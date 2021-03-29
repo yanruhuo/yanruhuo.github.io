@@ -21,7 +21,7 @@ jekyll-theme-WuK:
 -docker images     （查看镜像)
 ```
 ![图片](https://raw.githubusercontent.com/yanruhuo/yanruhuo.github.io/main/image/docker%E5%AF%BC%E5%85%A5jenkins/%E5%9B%BE%E7%89%871.png)
-
+![图片](https://raw.githubusercontent.com/yanruhuo/yanruhuo.github.io/main/image/docker%E5%AF%BC%E5%85%A5jenkins/%E5%9B%BE%E7%89%872.png)
 4.生成容器
 ```c
 docker run -d --name jenkins -p 8040:8080 -p 50000:50000 -v /data/jenkins_home:/var/jenkins_home jenkins/jenkins:2.222.3-centos

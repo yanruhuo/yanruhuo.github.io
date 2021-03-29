@@ -28,6 +28,8 @@ jekyll-theme-WuK:
 docker run -d --name jenkins -p 8040:8080 -p 50000:50000 -v /data/jenkins_home:/var/jenkins_home jenkins/jenkins:2.222.3-centos
 docker ps    （查看运行容器）
 ```
+![图片](https://raw.githubusercontent.com/yanruhuo/yanruhuo.github.io/main/image/docker%E5%AF%BC%E5%85%A5jenkins/%E5%9B%BE%E7%89%873.png)
+
 
 5.配置jenkins
 - 输入 IP地址：8040 进行访问

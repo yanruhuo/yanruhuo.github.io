@@ -33,12 +33,20 @@ jekyll-theme-WuK:
 docker run -d --name jenkins -p 8040:8080 -p 50000:50000 -v /data/jenkins_home:/var/jenkins_home jenkins/jenkins:2.222.3-centos
 docker ps    （查看运行容器）
 ```
+<div align=center>
+  
 ![图片3.png](https://i.loli.net/2021/03/30/k3c82fniZQpSd1o.png)
+  
+</div>
 
 5.配置jenkins
 - 输入 IP地址：8040 进行访问
 - 前提查看防火墙是否打开，要关闭防火墙
+<div align=center>
+  
 ![图片4.png](https://i.loli.net/2021/03/30/TpdR47H8PZ253cl.png)
+  
+</div>
 
 6.查看密码
 ```c

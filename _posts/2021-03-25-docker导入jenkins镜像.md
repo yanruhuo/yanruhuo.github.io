@@ -20,8 +20,11 @@ jekyll-theme-WuK:
 ```c
 -docker images     （查看镜像)
 ```
-                      ![图片1.png](https://i.loli.net/2021/03/30/Bq4K7AjEyQZWVXM.png)
-                      ![图片2.png](https://i.loli.net/2021/03/30/lDch5iM7U26ItFC.png)
+
+<div align=center>
+![图片1.png](https://i.loli.net/2021/03/30/Bq4K7AjEyQZWVXM.png)
+![图片2.png](https://i.loli.net/2021/03/30/lDch5iM7U26ItFC.png)
+</div>
 
 4.生成容器
 ```c

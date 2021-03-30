@@ -624,7 +624,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
               <script>
                 var myname = "言如惑";
-                var profile = "blog.imignon.com";
+                var profile = "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic3.zhimg.com%2F50%2Fv2-eb34e233cdd85a2e1a400ec7ef31272e_hd.jpg&refer=http%3A%2F%2Fpic3.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1619678206&t=c4690eb4a05af5e609a6228e92f1b612";
                 var usage = "payment";
                 var wechat = "wxp://f2f0APAXnQ9BH7dTAJthoo764a7nwgqPah-FvCgGeFipLGo";
                 var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";

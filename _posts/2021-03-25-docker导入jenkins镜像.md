@@ -52,17 +52,35 @@ docker ps    （查看运行容器）
 ```c
 docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPasswd
 ```
+<div align=center>
+  
 ![图片5.png](https://i.loli.net/2021/03/30/7IvDcxzm9J3Qf2b.png)
+  
+</div>
 
 7.按照要求配置
 > 选择跳过插件安装
+<div align=center>
+  
 ![图片6.png](https://i.loli.net/2021/03/30/CNyX5GcZFWAYQ6s.png)
+  
+</div>
 
 8.将开始备份的plugins上传 解压到目录路径下
 
 9.在地址栏后面加上/restart，点击yes。
+
+<div align=center>
+  
 ![图片7.png](https://i.loli.net/2021/03/30/SygaX53pHtGzsdO.png)
 ![图片8.png](https://i.loli.net/2021/03/30/hRDFpMy2wdTcL1B.png)
+  
+</div>
 
 重启后可以看到插件
+<div align=center>
+  
 ![图片9.png](https://i.loli.net/2021/03/30/MvWh4F9JUn3iDsY.png)
+  
+</div>
+

@@ -7,7 +7,9 @@ jekyll-theme-WuK:
 ---
 
 #maven私有仓库搭建
+
 **Python3安装(Linux环境)**
+
 在安装python时或者在用到python的时候，会依赖一些环境。为了防止在安装时出现问题，请确保机器上有一下包。
 
 **安装路径**

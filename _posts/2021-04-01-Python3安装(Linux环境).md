@@ -40,6 +40,7 @@ tar zxf Python-3.6.5.tgz
 ```
 
 **指定安装路径**
+
 在Python-3.6.5目录下 执行
 
 ```c
@@ -58,6 +59,7 @@ make install
 ```
 
 **修改Python软连接**
+
 Linux默认的python是2.X版本，现在我们需要把默认的软连接改成新安装的版本。
 - 备份原有软连接，注意这里需要root权限。
 

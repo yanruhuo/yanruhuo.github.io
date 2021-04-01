@@ -58,16 +58,19 @@ make install
 **修改Python软连接**
 Linux默认的python是2.X版本，现在我们需要把默认的软连接改成新安装的版本。
 - 备份原有软连接，注意这里需要root权限。
+
 ```c
 sudo mv /usr/bin/python /usr/bin/python2.back
 ```
 
 - 创建新的软连接
+
 ```c
 sudo ln -s /service/python3/bin/python3 /usr/bin/python
 ```
 
 - 查看python版本
+
 ```c
 python --version
 ```

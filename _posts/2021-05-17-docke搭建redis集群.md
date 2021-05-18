@@ -23,7 +23,7 @@ cd739bd1302b        hub.c.163.com/library/redis   "docker-entrypoint..."   4 min
 4b5b623ebe8a        hub.c.163.com/library/redis   "docker-entrypoint..."   4 minutes ago       Up 4 minutes        0.0.0.0:6379->6379/tcp   redis-6379
 ```
 
-分别使用dokcer inspect 容器ID命令，查看3个Redis内网IP地址（"IPAddress": "172.17.0.3"这个是IP）
+分别使用docker inspect 容器ID命令，查看3个Redis内网IP地址（"IPAddress": "172.17.0.3"这个是IP）
 ```c
                 "bridge": {
                     "IPAMConfig": null,

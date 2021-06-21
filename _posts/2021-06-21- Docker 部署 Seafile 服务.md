@@ -60,6 +60,7 @@ seafile:
 ```
 
 如果您想要使用自己的 SSL 证书，而且如果用来持久化存储 Seafile 数据的目录为 /opt/seafile-data，您可以做如下处理：
+
 ```p
 1.创建 /opt/seafile-data/ssl 目录，然后拷贝您的证书文件和密钥文件到ssl目录下。
 2.假设您的站点名称是 seafile.example.com，那么您的证书名称必须就是 seafile.example.com.crt，密钥文件名称就必须是 seafile.example.com.key。

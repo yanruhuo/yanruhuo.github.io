@@ -45,6 +45,7 @@ seafile:
 ```
 
 使用 Let's encrypt SSL 证书
+```p
 如果您把 SEAFILE_SERVER_LETSENCRYPT 设置为 true，该容器将会自动为您申请一个 letsencrypt 机构颁发的 SSL 证书，并开启 https 访问，为此您需要做如下配置：
 seafile:
     ...

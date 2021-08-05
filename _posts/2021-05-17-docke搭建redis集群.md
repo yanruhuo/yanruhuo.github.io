@@ -12,6 +12,8 @@ jekyll-theme-WuK:
 docker run --name redis-6379 -p 6379:6379 -d hub.c.163.com/library/redis
 docker run --name redis-6380 -p 6380:6379 -d hub.c.163.com/library/redis
 docker run --name redis-6381 -p 6381:6379 -d hub.c.163.com/library/redis
+
+##添加密码验证 --requirepass 123456
 ```
 
 使用docker ps命令，查看是否启动成功

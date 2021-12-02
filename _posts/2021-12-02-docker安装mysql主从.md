@@ -73,7 +73,7 @@ mysql> show master status;
 #File、Position  用于下面配置同步需要
 ```
 
-#Slave(从)
+# Slave(从)
 
 首先拉取docker镜像,我们这里使用5.7版本的mysql：
 ```p

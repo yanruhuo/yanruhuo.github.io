@@ -74,6 +74,7 @@ mysql> show master status;
 ```
 
 #Slave(从)
+
 首先拉取docker镜像,我们这里使用5.7版本的mysql：
 ```p
 docker pull mysql:5.7

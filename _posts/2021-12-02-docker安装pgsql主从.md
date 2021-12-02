@@ -83,7 +83,7 @@ mkdir -p  /fhpt/postgresql/data
 
 ## 运行从库容器
 ```p
-docker run --name pg_test --restart=always  -v /fhpt/postgresql/data:/var/lib/postgresql/data -e POSTGRES_PASSWORD=Fhpt@2021! -p 5432:5432 -d postgres:11.6
+docker run --name pg_test --restart=always  -v /fhpt/postgresql/data:/var/lib/postgresql/data -e POSTGRES_PASSWORD=密码 -p 5432:5432 -d postgres:11.6
 ```
 
 ## 进入启动的 docker 容器内部

@@ -6,7 +6,8 @@ jekyll-theme-WuK:
   background_music: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&id=27876158&auto=0&height=66"></iframe>'
 ---
 
-###Master(主)：
+#Master(主)：
+
 首先拉取docker镜像,我们这里使用5.7版本的mysql：
 ```p
 docker pull mysql:5.7
@@ -72,7 +73,7 @@ mysql> show master status;
 #File、Position  用于下面配置同步需要
 ```
 
-###Slave(从)
+#Slave(从)
 首先拉取docker镜像,我们这里使用5.7版本的mysql：
 ```p
 docker pull mysql:5.7

@@ -32,6 +32,8 @@ tar zxvf harbor-offline-installer-v2.5.0.tgz
 ```p
 cd harbor
 mv harbor.yml.tmpl harbor.yml
+```
+```p
 vim harbor.yml
 下面需要修改hostname和注释掉https
 # Configuration file of Harbor

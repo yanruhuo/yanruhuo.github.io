@@ -301,7 +301,7 @@ upload_purging:
 配置			
 认证模式			邮箱			系统设置
 认证模式									LDAP
-LDAP网址									ldap://10.95.130.178:389
+LDAP网址								ldap://10.95.130.178:389
 LDAP搜索DN								cn=admin,dc=imageq,dc=cn
 LDAP搜索密码								••••••••••••••••••••
 LDAP基础DN								ou=people,dc=imageq,dc=cn

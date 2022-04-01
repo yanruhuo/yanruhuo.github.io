@@ -54,4 +54,40 @@ alter system set processes=2000 scope=spfile;
 
 #查看mike用户创建信息
 select * from dba_users t where t.username = 'MIKE'; 
+```p
+
+```p
+[oracle@1cab53ad073d ~]$ sqlplus /nolog
+
+SQL*Plus: Release 11.2.0.1.0 Production on Wed Nov 18 11:10:07 2020
+
+Copyright (c) 1982, 2009, Oracle.  All rights reserved.
+
+SQL> conn /as sysdba
+Connected.
+SQL> alter user system identified by system;
+
+User altered.
+
+SQL> alter user sys identified by system;
+
+User altered.
+
+SQL> create user mike identified by mikeops;
+
+User created.
+
+SQL> grant connect,resource,dba to mike;
+
+Grant succeeded.
+
+SQL> ALTER PROFILE DEFAULT LIMIT PASSWORD_LIFE_TIME UNLIMITED;
+
+Profile altered.
+
+SQL> alter system set processes=2000 scope=spfile;
+
+System altered.
+
+SQL> select * from dba_users t where t.username = 'MIKE';
 ```

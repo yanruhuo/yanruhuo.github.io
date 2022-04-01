@@ -54,8 +54,9 @@ alter system set processes=2000 scope=spfile;
 
 #查看mike用户创建信息
 select * from dba_users t where t.username = 'MIKE'; 
-```p
+```
 
+# 数据库内部操作流程
 ```p
 [oracle@1cab53ad073d ~]$ sqlplus /nolog
 

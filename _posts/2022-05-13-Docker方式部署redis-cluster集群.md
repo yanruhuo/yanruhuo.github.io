@@ -46,6 +46,8 @@ docker exec -it redis-node1 /bin/bash
 redis-cli --cluster create 192.168.4.201:6379 192.168.4.201:6380 192.168.4.201:6381 192.168.4.201:6382 192.168.4.201:6383 192.168.4.201:6384 --cluster-replicas 1
 #  中间要输入yes
 #  创建成功后 进入redis：redis-cli
+#  指定端口连接：redis-cli -p 6371
+#  redis登录：auth+密码
 #  看集群信息：cluster nodes 查看一下集群节点信息
 ```
 

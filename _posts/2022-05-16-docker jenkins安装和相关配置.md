@@ -15,7 +15,7 @@ jekyll-theme-WuK:
 
 二、添加插件
 ```p
-NodeJS   			#java打包工具
+NodeJS				#java打包工具
 Publish Over SSH		#添加服务器和路径插件
 Git Parameter 			#构建选择分支
 ```
@@ -34,13 +34,13 @@ maven配置路径：
 四、centos配置
 ```p
 jenkins容器内部操作
-docker ps 			#查看安装jenks容器
+docker ps				#查看安装jenks容器
 
-docker exec -ti 容器ID bash	#进入容器
+docker exec -ti 容器ID bash		#进入容器
 
-ssh-keygen			#生成密钥
+ssh-keygen				#生成密钥
 
-ssh-copy-id 部署服务器IP		#公钥文件复制到部署服务器IP
+ssh-copy-id 部署服务器IP			#公钥文件复制到部署服务器IP
 
 
 部署服务器操作：

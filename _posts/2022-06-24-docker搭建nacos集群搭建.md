@@ -1,6 +1,5 @@
 ---
 title: Docker方式部署nacos
-集群
 tags:
   - docker
 jekyll-theme-WuK:

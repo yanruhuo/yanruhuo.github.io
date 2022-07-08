@@ -22,11 +22,13 @@ Git Parameter 			#构建选择分支
 
 三、项目配置
 ```p
-NodeJS配置路径：
-	系统管理-全局工具配置-NodeJS-NodeJS安装-新增NodeJS
+docker exec -ti -uroot ID bash #root权限进入容器
 
 maven配置路径：
-	系统管理-全局工具配置-Maven-Maven安装-新增Maven
+	系统管理-全局工具配置-Maven-填写安装路径
+
+java配置路径
+	系统管理-全局工具配置-java-填写安装路径
 
 #git是默认勾选自动安装，上面都选择自动安装即可。
 ```
